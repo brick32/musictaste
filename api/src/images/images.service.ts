@@ -35,6 +35,7 @@ export class ImagesService {
       },
       region: this.configService.get('AWS_REGION'),
       endpoint: this.configService.get('AWS_ENDPOINT'),
+      forcePathStyle: true,
     });
   }
 
