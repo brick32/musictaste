@@ -96,7 +96,7 @@ const client = ky.create({
   prefixUrl:
     // @ts-expect-error ...
     import.meta.env.PROD
-      ? 'https://api.musictaste.xyz'
+      ? 'https://api.musictaste.brickovich.lol'
       : 'http://localhost:4000/',
   credentials: 'include',
   timeout: false,
